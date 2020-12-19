@@ -28,7 +28,7 @@
         <div class="full-width">
             <div class="search-wrapper">
                 <div class="w-100">
-                    <input type="text" placeholder="Search text....">
+                    <input id="search-input" type="text" placeholder="Search text....">
                 </div>
                 <div>
                     <button class="search-btn">Search</button>
@@ -38,32 +38,25 @@
         <div class="sp-flexbox">
             <div>
                 <h3>Market List 1</h3>
-                <ul>
-                    <li>Duis bibendum massa et ultrices tristique. In hac.</li>
-                    <li>Proin dictum pellentesque luctus. Integer id tellus viverra.</li>
-                    <li>Nam lobortis nulla purus, at tristique libero convallis.</li>
-                    <li>Aliquam ac purus ante. Fusce sagittis magna nec.</li>
-                </ul>
+                <div id="markets-first"></div>
             </div>
             <div>
                 <h3>Market List 2</h3>
-                <ul>
-                    <li>Maecenas elit sapien, tincidunt quis aliquam ut, posuere.</li>
-                    <li>Donec placerat, ligula in dapibus congue, libero lorem.</li>
-                    <li>In in rutrum magna. Nulla viverra vehicula lorem.</li>
-                    <li>Quisque dolor leo, accumsan id leo suscipit, luctus.</li>
-                </ul>
+                <div id="markets-last"></div>
             </div>
         </div>
         <div class="full-width">
             <div class="image-title">
-                <h3>Grand Canyon</h3>
+                <h3>Farmer Market Location On Map</h3>
             </div>
-            <div class="image-wrapper">
-                <img class="sp-img" src="images/grand-canyon.jpg" alt="">
-            </div>
+            <div id="map"></div>
         </div>
     </div>
 </body>
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly"
+    defer
+></script>
+<script src="js/markets.js"></script>
 </html>
