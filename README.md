@@ -1,5 +1,5 @@
 # Title of Project
-Farmer Market
+Friends of Farmers: Connecting Farmers To Customers 
 
 # Description of Project: 
 This project is design to provide members of the public by using Prince George API database 
@@ -8,7 +8,7 @@ locations, directions, and operating times.
 
 # Description of target browsers:
 We are currently working on the site that will benefit the 
-Android and the iOS users to find information about Prince George
+Android and the iOS users especially stakeholders to find information about Prince George
 farmer market.
 
 # Link to User Manual:
