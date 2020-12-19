@@ -12,6 +12,6 @@ Android and the iOS users to find information about Prince George
 farmer market.
 
 # Link to User Manual:
-[GitHub](https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md)
+https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md
 
 # Link to Developer Manual:
