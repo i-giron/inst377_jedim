@@ -1,2 +1,2 @@
 # Title of your project
-# Description of your projects
+# Description of your project
