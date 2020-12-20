@@ -12,4 +12,4 @@ farmer market.
 # Link to User Manual:
 [User Manual](https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md)
 
-# Link to Developer Manual:
+# Developer Manual:
