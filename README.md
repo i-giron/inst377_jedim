@@ -6,11 +6,9 @@ This project is design to provide members of the public by using Prince George A
 locations, and map direction.
 
 # Target Browsers:
-We are currently a site that will benefit the Android and the iOS users especially stakeholders such as WIC and SNAP participants to find information about Prince George
-farmer market.
+Our target browsers are desktop-based web browsers. Users on iOS/Android may struggle with pinch-to-zoom feature with Google Map. Fully functional using Chrome, Firefox, Safari, and Edge. Opera/IE may encounter some issues.
 
-# User Manual Link:
-[User Manual](https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md)
+# [User Manual](https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md)
 
 # Developer Manual:
 ## Installation and Dependencies
@@ -55,9 +53,8 @@ Records specific dependencies' version number that our application needs
 * [Google Map API](https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly)
 * [Prince George Farmer Markets API](https://data.princegeorgescountymd.gov/resource/sphi-rwax.json)
 
-#### Known Issues and Development
+### Known Issues and Development
 As of right now, there is are no functioning API in the server that get data from the PG County data base. We simply hosted all the data on our front end. Another issue is that the filtering function on the home page in not functioning. Their submission on the DATA page are not stored anywhere either.
 If you were to continue this project, creating a GET API for the PG County Data would be a priority. From there you can create a POST endpoint to place the data in a sqlite database. Once you do that, you can use a PUT endpoint to pass the data to the front end.
 By solving this problem, figuring out the issue of the filtering would be much easier as the data will be in a stadardized form. You can also create a table for the submission data and create new aggregate tables with the already existing data.
-
 These are just our reccomendations for next steps. Please develop new and innovative uses and implementations for our application!
