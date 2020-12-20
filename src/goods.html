@@ -9,6 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Goods</title>
 </head>
 
@@ -27,42 +28,52 @@
         <div class="full-width">
             <div class="search-wrapper">
                 <div class="w-100">
-                    <input type="text" placeholder="search goods....">
+                    <input id="search-input" type="text" placeholder="Search goods....">
                 </div>
                 <div>
-                    <button class="search-btn">Search</button>
+                    <button id="search-btn" class="search-btn">Search</button>
                 </div>
             </div>
         </div>
         <div class="full-width">
-            <form action="">
-                <input type="checkbox" id="type1" name="type1" value="Rice">
-                <label for="type1"> Rice </label>
-                <input type="checkbox" id="type2" name="type2" value="Meat">
-                <label for="type2"> Meat</label>
-                <input type="checkbox" id="type3" name="type3" value="Chicken">
-                <label for="type3">Chicken</label>
-                <input type="checkbox" id="type4" name="type4" value="Corn">
-                <label for="type4">Corn</label><br><br>
-                <input type="checkbox" id="type5" name="type5" value="Wheat">
-                <label for="type5">Wheat</label>
-                <input type="checkbox" id="type6" name="type6" value="Soybeans">
-                <label for="type6">Soybeans</label>
-                <input type="checkbox" id="type7" name="type7" value="Eggs">
-                <label for="type7">Eggs</label>
-                <input type="checkbox" id="type8" name="type8" value="Vegetables">
+            <form >
+                <input type="checkbox" id="type1" name="type1" value="bakedgoods">
+                <label for="type1"> Baked Goods </label>
+                <input type="checkbox" id="type2" name="type2" value="cheese">
+                <label for="type2"> Cheese</label>
+                <input type="checkbox" id="type3" name="type3" value="eggs">
+                <label for="type3">Eggs</label>
+                <input type="checkbox" id="type4" name="type4" value="seafood">
+                <label for="type4">Seafood</label><br><br>
+                <input type="checkbox" id="type5" name="type5" value="herbs">
+                <label for="type5">Herbs</label>
+                <input type="checkbox" id="type6" name="type6" value="honey">
+                <label for="type6">Honey</label>
+                <input type="checkbox" id="type7" name="type7" value="jams">
+                <label for="type7">Jams</label>
+                <input type="checkbox" id="type8" name="type8" value="vegetables">
                 <label for="type8">Vegetables</label><br><br>
-                <input type="checkbox" id="type9" name="type9" value="Barley">
-                <label for="type9">Barley</label>
-                <input type="checkbox" id="type10" name="type10" value="Garlic">
-                <label for="type10">Garlic</label>
-                <input type="checkbox" id="type11" name="type11" value="Strawberries">
-                <label for="type11">Strawberries</label>
-                <input type="checkbox" id="type12" name="type12" value="Lettuce">
-                <label for="type12">Lettuce</label><br><br>
-                <button class="search-btn">Apply</button>
+                <input type="checkbox" id="type9" name="type9" value="maple">
+                <label for="type9">Maple</label>
+                <input type="checkbox" id="type10" name="type10" value="meat">
+                <label for="type10">Meat</label>
+                <input type="checkbox" id="type11" name="type11" value="nuts">
+                <label for="type11">Nuts</label>
+                <input type="checkbox" id="type12" name="type12" value="wine">
+                <label for="type12">Wine</label><br><br>
+              
             </form>
+            <button id="apply-btn"  class="search-btn">Apply</button>
         </div>
+
+        <div class="full-width">
+            <div class="image-title">
+                <h3>Farmer Market Location On Map</h3>
+            </div>
+            <div id="map"></div>
+        </div>
+
+
         <div class="sp-flexbox">
             <div>
                 <h3>Goods</h3>
@@ -97,5 +108,10 @@
         </div>
     </div>
 </body>
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly"
+    defer
+></script>
+<script src="js/goods.js"></script>
 </html>
