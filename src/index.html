@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;0,900;1,200;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title> Market4Farmers: Connecting Farmers To Customers In Need</title>
+</head>
+
+<body>
+    <div class="sp-container">
+        <div class="pg-title">
+            <h1>Market4Farmers: Connecting Farmers To Customers In Need</h1>
+        </div>
+        <div class="nav-wrapper">
+            <nav>
+                <div><a class="nav-link" href="index.html">About</a></div>
+                <div><a class="nav-link" href="src/markets.html">Markets</a></div>
+                <div><a class="nav-link" href="src/goods.html">Goods</a></div>
+            </nav>
+        </div>
+        <div class="sp-flexbox">
+            <div>
+                <h3>About Us</h3>
+                <p>
+                    Market4Farmers is a newly developed web application that effeciently solves the problems of finding fresh, quality produce when
+                    restricted by payment method, government assistance programs, or personal preferences.
+                </p>
+                <div>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Before Market4Farmers web application came about, our team of experts coordinated reasearch
+                    on the argriculture in Prince Georges County. Their discoveries expressed that despite a large amount 
+                    of agricultural presence in the Prince George’s County area
+                    there are only a few scant options for purchasing from these farms aside from direct orders made
+                    at the farm facility.
+                </p>
+                <p>To resolve these issues pertaing to the various restrictions that limit how much customers
+                    the farmers at Prince Georges County have, we developed an effecient serahc solution for them.</p>
+                <p>Our search solution assist low-income
+                    community members to find affordable locally produced fruits, vegetables, dairy products, and
+                    other grocery items. Our system includes a filter bar. By utilizing all our information regarding the argriculture business
+                    in Prince Georges County, we have developed a our Friends of Farmers webapplication that contians an advanced and 
+                    detailed search & matching system.
+
+                </p>
+            </div>
+        </div>
+        <div class="sp-flexbox">
+            <div>
+                <div class="image-title">
+                    <h3>A Prince Georges County Farmers Market</h3>
+                </div>
+                <div class="image-wrapper">
+                    <img class="sp-img" src="src/images/Farmers-Market.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="image-title">
+                    <h3>Prince Georges County Map</h3>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly"
+    defer
+></script>
+<script src="src/js/home.js"></script>
+</html>
