@@ -1,0 +1,23 @@
+{
+  "name": "inst377_jedim",
+  "version": "1.0.0",
+  "description": "Friends of Farmers: Connecting Farmers To Customers",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericTle1/inst377_jedim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericTle1/inst377_jedim/issues"
+  },
+  "homepage": "https://github.com/ericTle1/inst377_jedim#readme"
+}
