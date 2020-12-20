@@ -1,9 +1,9 @@
-# Title of Project
+# Project Title:
 Market4Farmers: Connecting Farmers To Customers In Need
 
-# Description of Project: 
+# Project Description: 
 This project is design to provide members of the public by using Prince George API database  with convenient access to information about Prince George farmer markets 
-locations, directions, and operating times.
+locations, and map direction.
 
 # Description of target browsers:
 We are currently a site that will benefit the Android and the iOS users especially stakeholders such as WIC and SNAP participants to find information about Prince George
