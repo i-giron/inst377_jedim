@@ -9,7 +9,7 @@ The stakeholders involved in this problem are vendors, farmers, the general publ
 # Data you chose to work with:
 The API that we have chosen to work with is Farmers Market Dataset from the Prince George County Open Data API website. 
 The information problem that we are trying to resolve is the different options of payment for Farmer Market.  
-[PGC Open Data API] (https://data.princegeorgescountymd.gov/Community/Farmers-Market/sphi-rwax) 
+[PGC Open Data API](https://data.princegeorgescountymd.gov/Community/Farmers-Market/sphi-rwax) 
 # Chosen strategies and solutions for the problem:
 
 # Technical system decision rationale:
