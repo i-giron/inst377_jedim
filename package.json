@@ -1,7 +1,7 @@
 {
-  "name": "inst377_jedim",
+  "name": "INST377-Final-Friends-of-Farmers",
   "version": "1.0.0",
-  "description": "Friends of Farmers: Connecting Farmers To Customers",
+  "description": "Final Project for INST377",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/ericTle1/inst377_jedim.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Team JEDIM",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ericTle1/inst377_jedim/issues"
