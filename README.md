@@ -50,3 +50,10 @@ Contains project descriptions, properties, scripts, dependencies, license inform
 
 >### package-lock.json	
 Records specific dependencies' version number that our application needs
+
+#### Running Locally
+To run this application locally, you must follow the instructions listed in the Installation and Dependencies. Once you have cloned the project to your local directory, and have NodeJS and all the dependencies installed, navigate to the directory that contains the project and run the following command to start the server locally which will be hosted at `localhost:3000`.
+
+```
+npm start
+```
