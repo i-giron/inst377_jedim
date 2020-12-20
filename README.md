@@ -14,4 +14,4 @@ farmer market.
 
 # Developer Manual:
 ## Installation and Dependencies
-This project is stored in a Github repository, and you may fork it to your own repository and make modifications to it when cloned to your local repository. You may either choose to install Github Desktop or Git to clone it to your local repository. For Github Desktop installation and documentation, [click here](https://desktop.github.com/). 
+This project is stored in a Github repository, and you may fork it to your own repository and make modifications to it when cloned to your local repository. You may either choose to install Github Desktop or Git to clone it to your local repository. For Github Desktop installation and documentation, [click here](https://desktop.github.com/). For Git installation, [click here](https://git-scm.com/downloads), and for Git repository instructions, [click here](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) 
