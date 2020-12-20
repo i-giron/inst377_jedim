@@ -13,3 +13,5 @@ farmer market.
 [User Manual](https://github.com/ericTle1/inst377_jedim/blob/main/docs/user.md)
 
 # Developer Manual:
+## Installation and Dependencies
+This project is stored in a Github repository, and you may fork it to your own repository and make modifications to it when cloned to your local repository. You may either choose to install Github Desktop or Git to clone it to your local repository. For Github Desktop installation and documentation, [click here](https://desktop.github.com/). 
