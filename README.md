@@ -1,5 +1,5 @@
 # Title of Project
-Friends of Farmers: Connecting Farmers To Customers 
+Market4Farmers: Connecting Farmers To Customers In Need
 
 # Description of Project: 
 This project is design to provide members of the public by using Prince George API database  with convenient access to information about Prince George farmer marks 
