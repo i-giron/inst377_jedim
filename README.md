@@ -51,9 +51,13 @@ Contains project descriptions, properties, scripts, dependencies, license inform
 >### package-lock.json	
 Records specific dependencies' version number that our application needs
 
-#### Running Locally
-To run this application locally, you must follow the instructions listed in the Installation and Dependencies. Once you have cloned the project to your local directory, and have NodeJS and all the dependencies installed, navigate to the directory that contains the project and run the following command to start the server locally which will be hosted at `localhost:3000`.
+### APIs Used
+* [Google Map API](https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly)
+* [Prince George Farmer Markets API](https://data.princegeorgescountymd.gov/resource/sphi-rwax.json)
 
-```
-npm start
-```
+#### Known Issues and Development
+As of right now, there is are no functioning API in the server that get data from the PG County data base. We simply hosted all the data on our front end. Another issue is that the filtering function on the home page in not functioning. Their submission on the DATA page are not stored anywhere either.
+If you were to continue this project, creating a GET API for the PG County Data would be a priority. From there you can create a POST endpoint to place the data in a sqlite database. Once you do that, you can use a PUT endpoint to pass the data to the front end.
+By solving this problem, figuring out the issue of the filtering would be much easier as the data will be in a stadardized form. You can also create a table for the submission data and create new aggregate tables with the already existing data.
+
+These are just our reccomendations for next steps. Please develop new and innovative uses and implementations for our application!
