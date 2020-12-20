@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;0,900;1,200;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Markets</title>
+</head>
+
+<body>
+    <div class="sp-container">
+        <div class="pg-title">
+            <h1>Markets</h1>
+        </div>
+        <div class="nav-wrapper">
+            <nav>
+                <div><a class="nav-link" href="index.html">About</a></div>
+                <div><a class="nav-link" href="markets.html">Markets</a></div>
+                <div><a class="nav-link" href="goods.html">Goods</a></div>
+            </nav>
+        </div>
+        <div class="full-width">
+            <div class="search-wrapper">
+                <div class="w-100">
+                    <input id="search-input" type="text" placeholder="Search text....">
+                </div>
+                <div>
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="sp-flexbox">
+            <div>
+                <h3>Market List 1</h3>
+                <div id="markets-first"></div>
+            </div>
+            <div>
+                <h3>Market List 2</h3>
+                <div id="markets-last"></div>
+            </div>
+        </div>
+        <div class="full-width">
+            <div class="image-title">
+                <h3>Farmer Market Location On Map</h3>
+            </div>
+            <div id="map"></div>
+        </div>
+    </div>
+</body>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly"
+    defer
+></script>
+<script src="js/markets.js"></script>
+</html>
