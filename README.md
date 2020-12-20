@@ -42,7 +42,7 @@ Contains user manual and final report.
 >### /src 
 Front-end folder that contains images, html, css, and js files.
 
-.### /README.md
+### /README.md
 Introduces and explains our project.
 
 >### package.json	
