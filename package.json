@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/ericTle1/inst377_jedim/issues"
   },
-  "homepage": "https://github.com/ericTle1/inst377_jedim#readme"
+  "homepage": "https://github.com/ericTle1/inst377_jedim#readme",
+  "devDependencies": {
+    "babel": "^6.23.0"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "^4.0.0",
+    "@szmarczak/http-timer": "^4.0.5"
+  }
 }
