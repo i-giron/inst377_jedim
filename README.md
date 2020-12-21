@@ -38,7 +38,7 @@ npm i
 Contains user manual and final report.
 
 >### /src 
-Front-end folder that contains images, html, css, and js files.
+Front-end folder that contains images, css, and js files.
 
 >### README.md
 Introduces and explains our project.
