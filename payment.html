@@ -9,20 +9,20 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/css/styles.css">
-    <title>Markets</title>
+    <title>Payment</title>
 </head>
 
 <body>
     <div class="sp-container">
         <div class="pg-title">
-            <h1>Markets</h1>
+            <h1>Goods</h1>
         </div>
         <div class="nav-wrapper">
             <nav>
                 <div><a class="nav-link" href="index.html">About</a></div>
                 <div><a class="nav-link" href="markets.html">Markets</a></div>
                 <div><a class="nav-link" href="goods.html">Goods</a></div>
-                <div><a class="nav-link" href="payment.html">Payment</a></div>
+                <div><a class="nav-link" href="payment.html">Goods</a></div>
             </nav>
         </div>
         <div class="full-width">
@@ -35,19 +35,26 @@
                 </div>
             </div>
         </div>
-        <div class="sp-flexbox">
-            <div>
-                <h3>Market List 1</h3>
-                <div id="markets-first"></div>
-            </div>
-            <div>
-                <h3>Market List 2</h3>
-                <div id="markets-last"></div>
-            </div>
-        </div>
         <div class="full-width">
-            <div class="image-title">
-                <h3>Farmer Market Location On Map</h3>
+            <form >
+                <h1>Products</h1>
+                <input type="checkbox" id="type1" name="type1" value="credit">
+                <label for="type1"> CREDIT </label>
+                <input type="checkbox" id="type2" name="type2" value="wic">
+                <label for="type2"> WIC</label>
+                <input type="checkbox" id="type3" name="type3" value="wiccash">
+                <label for="type3">WICCASH</label>
+                <input type="checkbox" id="type4" name="type4" value="sfmnp">
+                <label for="type4">SFMNP</label><br><br>
+                <input type="checkbox" id="type5" name="type5" value="SNAP">
+                <label for="type5">SNAP</label>
+            </form>
+            <button id="apply-btn"  class="search-btn">Apply</button>
+            <div class="full-width">
+                <div class="image-title">
+                    <h3>Farmer Market Location On Map</h3>
+                </div>
+                <div id="map"></div>
             </div>
             <div id="map"></div>
         </div>
@@ -58,5 +65,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUIN4splV3Mg8N2pasIr7B_uOnePMnC5w&callback=initMap&libraries=&v=weekly"
     defer
 ></script>
-<script src="src/js/markets.js"></script>
+<script src="src/js/payment.js"></script>
 </html>
+        

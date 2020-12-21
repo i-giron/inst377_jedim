@@ -36,8 +36,6 @@ app.prototype.renderMap = function() {
         })(marker, i));
     }
 }
-
-
 // function to bind events on goods page
 app.prototype.bindEvents = function() {
     // function when user click Apply button
@@ -50,7 +48,7 @@ app.prototype.bindEvents = function() {
                 checkedArray.push($('#type' + i).val())
             }   
         }
-        // get placed by selected goods
+        // get placed by selected payment
         this.filteredResult = this.data.filter((item) => {
             for (let k = 0; k < checkedArray.length; k++){
                 if (item[checkedArray[k]] == "Yes") return true;
@@ -61,16 +59,16 @@ app.prototype.bindEvents = function() {
 
     
 
-    // filter places by goods name typed by user
+    // filter places by payment name typed by user
     document.getElementById('search-btn').addEventListener('click', () => {
-        let goodsNameArray = ['bakedgoods', 'cheese', 'eggs', 'seafood', 'herbs', 'honey', 'jams', 'vegetables', 'maple', 'meat',  'nuts',  'wine'];
+        let paymentNameArray = ['credit', 'wic', 'wiccash', 'sfmnp', 'snap'];
         const input = document.getElementById('search-input').value;
-        // get goods item index from user input
-        let index = goodsNameArray.findIndex((item)=> item.includes(input.toLowerCase()));
+        // get payment item index from user input
+        let index = paymentNameArray.findIndex((item)=> item.includes(input.toLowerCase()));
         if (index > -1){
             this.filteredResult = this.data.filter((item) => {
-                for (let k = 0; k < goodsNameArray.length; k++){
-                    if (item[goodsNameArray[index]] == "Yes") return true;
+                for (let k = 0; k < paymentNameArray.length; k++){
+                    if (item[paymentNameArray[index]] == "Yes") return true;
                 } 
             });
         }
@@ -79,7 +77,6 @@ app.prototype.bindEvents = function() {
 });
 
 }
-
 // Get All data from server
 app.prototype.fetch = function() {
     fetch('https://data.princegeorgescountymd.gov/resource/sphi-rwax.json')
