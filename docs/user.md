@@ -36,7 +36,7 @@ The approach taken by this application is based on the proposal of identifying a
  
  
 ## 2.0 Getting Started
-Users who access this application will be directed to the home page. On the home page, users will find a brief mission statement and "about us" section. Located across the header of the webpage will appear the following tabs displaying the categories: markets and goods. Users can navigate through these tabs to simplify their search requests.
+Users who access this application will be directed to the home page. On the home page, users will find a brief mission statement and "about us" section. Located across the header of the webpage will appear the following tabs displaying the categories: markets, goods, and payment. Users can navigate through these tabs to simplify their search requests.
 
 #####  2.1 Categories
 
