@@ -59,23 +59,7 @@ app.prototype.bindEvents = function() {
         this.renderMap();
     });
 
-    document.getElementById('register-btn').addEventListener('click', ()=>{
-        let checkArray = []
-        for (let i=1; i <=17; i++){
-            let check = $('#type' + i).is(":checked");
-            if (check== true){
-                checkArray.push($('#type' + i).val())
-            
-            }
-        }
-      // get placed by selected goods
-      this.filteredResult = this.data.filter((item) => {
-        for (let k = 0; k < checkArray.length; k++){
-            if (item[checkArray[k]] == "Yes") return true;
-        } 
-    });
-    this.renderMap();
-});
+    
 
     // filter places by goods name typed by user
     document.getElementById('search-btn').addEventListener('click', () => {
@@ -94,23 +78,8 @@ app.prototype.bindEvents = function() {
         this.renderMap();
 });
 
-    document.getElementById('register-btn').addEventListener('click', () => {
-        let paymentArray = ['CREDIT', 'WIC', 'WICCASH', 'SFMNP', 'SNAP'];
-        const input = document.getElementById('search-input').value;
-        // get goods item index from user input
-        let index = paymentArray.findIndex((item)=> item.includes(input.toLowerCase()));
-        if (index > -1){
-            this.filteredResult = this.data.filter((item) => {
-                for (let k = 0; k < paymentArray.length; k++){
-                    if (item[paymentArray[index]] == "Yes") return true;
-                } 
-            });
-        }
-        console.log('filteredResult', this.filteredResult)
-        this.renderMap();
-    });
-
 }
+
 // Get All data from server
 app.prototype.fetch = function() {
     fetch('https://data.princegeorgescountymd.gov/resource/sphi-rwax.json')
