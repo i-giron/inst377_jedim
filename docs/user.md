@@ -45,7 +45,7 @@ In this section, users will be able to search for nearby farmer's markets. Users
  
  
 ###### Goods
+In this section, users are able to filter their search results by clicking the box until a checkmark appears. The checked box will identify and filter which markets offer certain available vegetables, fruits, and other grocery items. 
 
-In this section, users are able to filter their search results by clicking the box until a checkmark appears. The checked box will identify and filter which markets offer certain available vegetables, fruits, and other grocery items. This section also allows users to filter which markets are accepting certain methods of payments such as WIC, SNAP, cash, etc. 
-
-
+###### Payment
+In this section, users are able to filter their search results by clicking the box until a checkmark appears. This section also allows users to filter which markets are accepting certain methods of payments such as WIC, SNAP, cash, etc. 
